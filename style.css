@@ -1,0 +1,920 @@
+body{
+    font-family: Roboto;
+}
+
+.mob {
+    display: block !important;
+}
+
+.tab {
+    display: none !important;
+}
+
+.desc {
+    display: none !important;
+}
+
+.header_logo_dark {
+    width: 130px;
+}
+
+.header_logo_white {
+    display: none;
+}
+
+.navbar {
+    padding-top: 25px;
+}
+
+.navbar-light .navbar-toggler {
+    position: absolute;
+    right: 28px;
+    border: none;
+    color: transparent;
+}
+
+.nav-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #C4C4C4;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("img/menu-burger.svg");
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+    border-bottom: 1px solid
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:active {
+    color: #FFFFFF;
+    border-bottom: 1px solid
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+    justify-content: center;
+}
+
+.navbar-menu {
+    background: #2F3132;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 0px;
+}
+
+.text-margin {
+    margin-top: 50px;
+    margin-left: 59px;
+    margin-right: 59px;
+}
+
+.text_margin {
+    margin-left: 34px;
+    margin-right: 33px;
+}
+
+.text_mouse {
+    margin-left: 67px;
+    margin-right: 61px;
+}
+
+.text_flow {
+    margin-bottom: 16px;
+    text-align: left;
+    width: 224px;
+}
+
+.text_settings {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 11px 0px 5px;
+}
+
+.top {
+    background: #E0E1E2;
+    padding-bottom: 48px
+}
+
+.top__arrow-big {
+    display: none;
+}
+
+.top__arrow-little {
+    display: block;
+}
+.top__img {
+    margin-top: 94px;
+    height: 230px;
+    background-image: url("img/MX-Master1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.top__arrow {
+    margin-top: 40px;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.bluetooth__img {
+    height: 218px;
+    background-image: url("img/High_Resolution_PNG-MX Master 3 LEFT GRAPHITE 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.bluetooth {
+    background: #EDEDED;
+    padding-top: 42px;
+    padding-bottom: 18px;
+}
+
+.bluetooth__icon {
+    margin-bottom: 27px;
+}
+
+.bluetooth__icon-little {
+    display: block;
+}
+
+.bluetooth__icon-big {
+    display: none;
+}
+
+.bluetooth__heading {
+    margin-top: 31px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.surface {
+    background: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 63px;
+}
+
+.surface__content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 28px;
+    min-height: 94px;
+    gap: 6px;
+}
+
+.surface__content_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 166px;
+    border: 1px solid #2F3132;
+    min-height: 94px;
+}
+
+.surface__content-heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2F3132;
+    margin-bottom: 5px;
+}
+
+.surface__heading {
+    margin-top: 28px;
+    margin-bottom: 70px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+}
+
+.carousel-indicators {
+    bottom: -120px;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("img/arrow-left.svg");
+    margin-top: 400px;
+}
+
+.carousel-control-next-icon{
+    background-image: url("img/arrow-right.svg");
+    margin-top: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 31px;
+    height: 31px;
+    background-color: transparent;
+    background-clip: content-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: opacity .6s ease;
+    margin-left: 22px;
+    margin-right: 0;
+}
+
+.carousel-indicators:first-child {
+    margin-left: 0px;
+    margin-right: 22px;
+}
+
+.flow {
+    background: #EDEDED;
+    padding-top: 70px;
+    padding-bottom: 218px;
+    background-image: url("img/High_Resolution_JPG-MX Lifestyle 2346 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.flow__ol {
+    padding-top: 36px;
+    padding-left: 54px;
+}
+
+.settings {
+    background: #EDEDED;
+    padding-top: 70px;
+}
+
+.settings__slider {
+    width: 330px;
+    margin: 35px auto 44px auto;
+}
+
+.settings__content {
+    background: #C4C4C4;
+    padding: 23px 22px 26px 29px;
+}
+
+.settings__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings_carousel-indicators [data-bs-target] {
+    background-image: url("img/Ellipse 12.svg");
+    width: 15px;
+    height: 15px;
+    margin-bottom: 0px;
+}
+
+.comfort {
+    padding-top: 70px;
+}
+
+.comfort__img1 {
+    height: 310px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    background-image: url("img/image 1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.comfort__img2 {
+    height: 310px;
+    margin-top: 20px;
+    background-image: url("img/image 2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.footer {
+    height: 75px;
+    background: #2F3132;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding: 22px 145px 37px 145px;
+}
+
+@media (min-width: 768px) {
+    .mob {
+        display: none !important;
+    }
+
+    .tab {
+        display: block !important;
+    }
+
+    .desc {
+        display: none !important;
+    }
+
+    .top {
+        padding-bottom: 80px;
+    }
+
+    .header_logo_dark {
+        width: 240px
+    }
+
+    .navbar {
+        padding-top: 54px;
+    }
+
+    .navbar-light .navbar-toggler {
+        right: 58px;
+    }
+
+    .top__img {
+        margin-top: 160px;
+        height: 514px;
+        background-image: url("img/MX-Master 1.png");
+    }
+
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 30px;
+    }
+
+    .text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text-margin {
+        margin-top: 124px;
+        margin-left: 154px;
+        margin-right: 155px;
+    }
+
+    .text_mouse {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+
+    .text_margin {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+
+    .text_flow {
+        width: auto;
+        padding: 8px 15px 4px 28px;
+        border-left: 1px solid #494949;
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 0px;
+    }
+
+    .text_flow:first-child {
+        border-left: none;
+        padding-left: 0px;
+        padding-right: 21px;
+    }
+
+    .text_flow:last-child {
+        padding-right: 0px;
+        padding-left: 22px;
+    }
+
+    .text_flow-p {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .text_settings {
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 25px;
+    }
+
+    .top__arrow {
+        margin-top: 76px;
+    }
+
+    .top__arrow-big {
+        display: block;
+    }
+
+    .top__arrow-little {
+        display: none;
+    }
+
+    .bluetooth {
+        padding-top: 80px;
+        padding-bottom: 3px;
+    }
+
+    .bluetooth__icon-little {
+        display: none;
+    }
+
+    .bluetooth__icon-big {
+        display: block;
+    }
+
+    .bluetooth__icon {
+        margin-bottom: 39px;
+    }
+
+    .bluetooth__heading {
+        margin-top: 76px;
+        font-size: 150px;
+        line-height: 176px;
+        margin-bottom: -77px;
+    }
+
+    .bluetooth__img {
+        height: 498px;
+        margin-left: 39px;
+        margin-right: 19px;
+    }
+
+    .surface {
+        padding-bottom: 61px;
+    }
+
+    .surface__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        min-height: 170px;
+        gap: 30px;
+    }
+
+    .surface__content_item {
+        flex-basis: 300px;
+    }
+
+    .surface__content-heading {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .surface__heading {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+
+    .flow {
+        padding-left: 64px;
+        padding-right: 65px;
+        padding-bottom: 498px;
+    }
+
+    .flow__ol {
+        list-style-position: inside;
+        padding-top: 70px;
+        display: flex;
+        padding-left: 0px;
+    }
+
+    .settings {
+        padding-left: 64px;
+        padding-right: 65px;
+        padding-bottom: 70px;
+    }
+
+    .settings__slider {
+        margin: 54px auto 148px auto;
+        width: 497px;
+    }
+
+    .settings_carousel-indicators [data-bs-target] {
+        background-image: url("img/Ellipse 12.png");
+        width: 25px;
+        height: 25px;
+        margin-bottom: 0px;
+    }
+
+    .settings__icons {
+        margin-left: 98px;
+        margin-right: 104px;
+        padding-top: 38px;
+    }
+
+    .settings__content {
+        padding-bottom: 29px;
+    }
+
+    .settings__img {
+        height: 35px;
+    }
+
+    .text_comfort {
+        margin-left: 67px;
+        margin-right: 65px;
+    }
+
+    .comfort__img1 {
+        height: 549px;
+        margin-top: 50px;
+        background-image: url("img/High_Resolution_JPG-MX Master Lifestyle 2602 SpaceGrey for MAC 2.jpg")
+    }
+
+    .comfort__img2 {
+        height: 549px;
+        margin-top: 50px;
+        background-image: url("img/image 2b.jpg");
+    }
+
+    .comfort_heading {
+        margin-left: 271px;
+        margin-right: 271px;
+    }
+
+    .footer {
+        height: 150px;
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 47px;
+    }
+
+    .footer-copyright {
+        width: 170px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) {
+        #carouselExampleIndicators_settings {
+            display: none;
+        }
+
+        .mob {
+            display: none !important;
+        }
+
+        .tab {
+            display: none !important;
+        }
+
+        .desc {
+            display: block !important;
+        }
+
+
+        .center_bluetooth {
+            padding-left: calc(50% - 580px);
+            padding-right: calc(50% - 580px);
+            padding-bottom: 66px;
+        }
+
+        .center {
+            padding-left: calc(50% - 640px);
+            padding-right: calc(50% - 640px);
+        }
+
+        header {
+            background: #2F3132;
+            height: 100px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header_logo_dark {
+            display: none;
+        }
+
+        .header_logo_white {
+            display: block;
+            width: 150px;
+        }
+
+        .heading {
+            font-size: 36px;
+            line-height: 42px;
+            margin-bottom: 35px;
+        }
+
+        .navbar {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 14px;
+            text-align: center;
+            color: #FFFFFF;
+
+        }
+
+        .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 14px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+
+        .navbar-menu {
+            margin-left: 147px;
+
+        }
+
+        .nav-item {
+            padding-left: 22px;
+            padding-right: 21px;
+            border-right: 1px solid #494949
+        }
+
+        .nav-item:first-child {
+            padding-left: 0px;
+        }
+
+        .nav-item:last-child {
+            padding-right: 0px;
+            border: none;
+        }
+
+        .top__img {
+            height: 671px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            padding-top: 70px;
+
+        }
+
+        .text {
+            font-size: 20px;
+            line-height: 23px;
+        }
+
+        .text_flow:first-child {
+            border-left: none;
+            padding-left: 0px;
+            padding-right: 54px;
+        }
+
+        .text_flow:last-child {
+            padding-right: 0px;
+            padding-left: 58px;
+        }
+
+        .text_flow {
+            padding: 5px 40px 0px 73px;
+        }
+
+        .text_settings {
+            width: 628px;
+            margin: auto;
+        }
+
+        .text_margin {
+            width: 765px;
+            margin: auto;
+        }
+
+        .text_comfort {
+            width: 400px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .text_mouse {
+            width: 765px;
+            margin: auto;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .top__arrow {
+            margin-top: 49px;
+        }
+
+        .bluetooth {
+            padding-bottom: 1px;
+        }
+
+        .bluetooth__icon {
+            margin-bottom: 35px;
+        }
+
+        .bluetooth_heading_70 {
+            font-size: 300px;
+            line-height: 352px;
+        }
+
+        .bluetooth__heading {
+            margin-top: 14px;
+            font-size: 96px;
+            line-height: 112px;
+            margin-bottom: -229px;
+            display: flex;
+            justify-content: center;
+            padding-left: 73px;
+        }
+
+        .bluetooth__img {
+            margin-left: 0px;
+            margin-right: 0px;
+            height: 307px;
+            background: url("img/High_Resolution_PNG-MX Master 3 FRONT GRAPHITE 1.png") no-repeat 0 0,
+            url("img/LEFT.png") no-repeat right 0;
+        }
+
+        .bluetooth_heading_days {
+            padding-top: 45px;
+        }
+
+        .surface {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .surface__content {
+            min-height: 140px;
+            gap: 32px;
+        }
+
+        .surface__content_item {
+            flex-basis: 237px;
+        }
+
+        .surface__content-heading {
+            font-size: 36px;
+            line-height: 42px;
+        }
+
+        .surface__heading {
+            font-size: 20px;
+            line-height: 23px;
+            margin-top: 39px;
+            margin-bottom: 90px;
+        }
+
+        .flow {
+            padding: 100px 0 870px 0;
+            background-image: url("img/flow_background_desc.png");
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: center bottom;
+        }
+
+        .text_flow-p {
+            margin: auto;
+            width: 958px;
+        }
+
+        .flow__ol {
+            width: 943px;
+            margin: auto;
+        }
+
+        .settings {
+            padding: 100px 0px 100px 0px;
+        }
+
+        .settings__slider_wrap {
+            margin-top: 72px;
+            padding-bottom: 698px;
+            background-image: url("img/settings_background.png");
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: center center;
+        }
+
+        .settings__content {
+            margin: auto;
+            margin-top: -56px;
+            width: 749px;
+            height: 196px;
+            padding-top: 38px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .settings__icons {
+            padding: 0px 117px 25px 120px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .comfort {
+            display: flex;
+            padding-top: calc(50% - 860px);
+            padding-bottom: calc(50% - 860px);
+            flex-wrap: wrap;
+        }
+
+        .comfort__item {
+            height: 557px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .comfort__text_1 {
+            padding-right: 217px;
+            order: 2;
+            padding-left: 37px;
+        }
+
+        .comfort__text_1 .text_margin {
+            margin: 0;
+        }
+
+        .comfort__text_2 {
+            padding-left: 217px;
+            order: 3;
+            padding-right: 31px;
+        }
+
+        .comfort__text_2 .text_margin {
+            margin: 0;
+        }
+
+        .comfort_heading {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .comfort__img1 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            background-image: url("img/comfort_img1_desc.png");
+            background-position: center;
+            order: 1;
+        }
+
+        .comfort__img2 {
+            margin-top: 0px;
+            background-image: url("img/comfort_img2_desc.png");
+            background-position: center;
+            order: 4;
+        }
+
+        .footer {
+            padding-left: 0;
+            padding-right: 0;
+        }
+}
